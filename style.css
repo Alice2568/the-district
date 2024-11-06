@@ -1,0 +1,30 @@
+/*struture du css = top to bottom
+background first
+then body + id specifique à chaque page?*/
+/*body{
+    background-image:url("dark-grunge-texture.jpg");
+}*/
+/*a voir pour background si keep or not*/
+
+
+
+.divwelcome {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+.divwelcome {
+    background-image: url("img/images_the_district/the_district_brand/linkedin_banner_image_1.png");
+}
+nav.navbar {
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+
+
+
