@@ -13,9 +13,10 @@ then body + id specifique à chaque page?*/
     margin-top: 70px;
     margin-bottom: 50px;
     text-decoration: underline;
+    font-family: "Caveazt", sans-serif;
 }
 .divwelcome {
-    background-image: url("img/images_the_district/the_district_brand/linkedin_banner_image_1.png");
+    background-image: 
 }
 nav.navbar {
     position: fixed;
