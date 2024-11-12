@@ -10,20 +10,24 @@ body{
 
 
 
+
+.welcome {
+    font-size: 5rem;
+}
+.citation {
+    font-size: 2rem;
+}
 .divwelcome {
     text-align: center;
     margin-top: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     text-decoration: underline;
     font-family: "Caveat", serif;
-    font-size: 3rem;
-}    
-.divwelcome {
     position: relative;
     width: 100%;
     height: 50%;
     overflow: hidden;
-    margin-bottom: 100px;
+    
 }
 
 #background-video {
@@ -45,8 +49,11 @@ nav.navbar {
     top: 0px;
     left: 0px;
     right: 0px;
+    z-index: 1;
 }
-
-.card {
-    display: i;
+.card:hover{
+    /* faire transition on hover= on hover: img qui zoom et text qui se réduit ne laissant que le bouton pour accéder à la catégorie*/
+}
+.card-img-top {
+    
 }
