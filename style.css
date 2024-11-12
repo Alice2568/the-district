@@ -1,10 +1,12 @@
 /*struture du css = top to bottom
 background first
 then body + id specifique à chaque page?*/
-/*body{
+body{
     background-image:url("dark-grunge-texture.jpg");
-}*/
-/*a voir pour background si keep or not*/
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: blanchedalmond;
+}
 
 
 
@@ -13,19 +15,38 @@ then body + id specifique à chaque page?*/
     margin-top: 70px;
     margin-bottom: 50px;
     text-decoration: underline;
-    font-family: "Caveazt", sans-serif;
-}
+    font-family: "Caveat", serif;
+    font-size: 3rem;
+}    
 .divwelcome {
-    background-image: 
+    position: relative;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    margin-bottom: 100px;
 }
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 100%;
+    min-height: 50%;
+    object-fit: cover;
+    /* Pour que la vidéo couvre toute la bannière */
+    z-index: -1;
+    /* La vidéo reste derrière le contenu */
+}
+
 nav.navbar {
+    overflow: hidden;
     position: fixed;
-    top:0px;
+    top: 0px;
     left: 0px;
     right: 0px;
 }
 
-
-
-
-
+.card {
+    display: i;
+}
