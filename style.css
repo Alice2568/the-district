@@ -58,16 +58,10 @@ nav.navbar {
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 20px;
-    
-    
-
 }
 
 .card{
     max-width: 400px;
-
-    
-    
 }
 .card-img-top {
     width: auto;
@@ -76,6 +70,17 @@ nav.navbar {
     
 }
 .carousel-item {
-    width: 1000px;
-    height: 1000px;
+    width: 50%;
+    height:50%;
+    margin-right: 20%;
+    margin-left: 20%;
+   
 }
+.d-block{
+    border-radius: 5%;
+    width: 500px;
+    height: 500px;
+}
+
+.card:hover
+
