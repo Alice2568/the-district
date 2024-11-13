@@ -62,8 +62,10 @@ nav.navbar {
     
 
 }
+
 .card{
     max-width: 400px;
+
     
     
 }
@@ -72,4 +74,8 @@ nav.navbar {
     height: fit-content;
     max-height: 300px;
     
+}
+.carousel-item {
+    width: 1000px;
+    height: 1000px;
 }
