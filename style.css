@@ -2,7 +2,7 @@
 background first
 then body + id specifique à chaque page?*/
 body{
-    background-image:url("dark-grunge-texture.jpg");
+    background-image:url("img/dark-grunge-texture.jpg");
     background-repeat: repeat-y;
     background-size: cover;
     color: blanchedalmond;
@@ -51,9 +51,25 @@ nav.navbar {
     right: 0px;
     z-index: 1;
 }
-.card:hover{
-    /* faire transition on hover= on hover: img qui zoom et text qui se réduit ne laissant que le bouton pour accéder à la catégorie*/
+/*/.card:hover{
+     faire transition on hover= on hover: img qui zoom et text qui se réduit ne laissant que le bouton pour accéder à la catégorie*/
+.divcard {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+    
+
+}
+.card{
+    max-width: 400px;
+    
+    
 }
 .card-img-top {
+    width: auto;
+    height: fit-content;
+    max-height: 300px;
     
 }

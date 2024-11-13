@@ -16,10 +16,11 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="notrerestaurant.html"><img src="img/images_the_district/the_district_brand/logo.png"
-          height="30px" width="30px" alt="logo restaurant the district"> District</a>
+      <a class="navbar-brand text-light" href="notrerestaurant.html"><img
+          src="img/images_the_district/the_district_brand/logo.png" height="30px" width="30px"
+          alt="logo restaurant the district"> District</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,22 +28,23 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active " aria-current="page" href="">Accueil</a>
+            <a class="nav-link active text-light" aria-current="page" href="">Accueil</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="categories.html">Catégories</a>
+          <li class="nav-item ">
+            <a class="nav-link text-light" href="categories.html">Catégories</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item ">
+            <a class="nav-link text-light" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               Plats
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Antipasti</a></li>
-              <li><a class="dropdown-item" href="#">Pizza</a></li>
-              <li><a class="dropdown-item" href="#">Pasta</a></li>
-              <li><a class="dropdown-item" href="#">Dessert</a></li>
-              <li><a class="dropdown-item" href="#">Boissons</a></li>
-            </ul>
+            <!--<ul class="dropdown-menu">
+              <li><a class="dropdown-item text-light" href="#">Antipasti</a></li>
+              <li><a class="dropdown-item text-light" href="#">Pizza</a></li>
+              <li><a class="dropdown-item text-light" href="#">Pasta</a></li>
+              <li><a class="dropdown-item text-light" href="#">Dessert</a></li>
+              <li><a class="dropdown-item text-light" href="#">Boissons</a></li>
+            </ul>-->
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -56,87 +58,108 @@
     <video autoplay muted loop id="background-video">
       <source src="img/081454429-eating-salami-pizza-stop-motio.mp4" type="video/mp4">
     </video>
-  
-  
+
+
     <h1 class="welcome">Bienvenue</h1>
     <!--changer la font (caveat-font) pour faire une jolie font un peu style caligraphie-->
     <p class="citation"><em>"La gastronomie est l'art d'utiliser la nourriture pour créer du bonheur."</em></p>
   </div>
   <div>
-   
-   <div><a href="categories.html" title="Nos catégories">Nos categories</a></div>
-  
-  <!--Button linked avec nos catégories suivis des photos de quelques catégories-->
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div><a href="categories.html" title="Nos catégories">Nos categories</a></div>
+
+    <!--Button linked avec nos catégories suivis des photos de quelques catégories-->
+    <section class="divcard">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
       <div class="col">
         <div class="card">
-          <img src="antipasto-board-with-ham-cheese-nuts-honey.jpg" class="card-img-top" alt="image d'un plateau de charcuterie et de fromage">
+          <img src="img/antipasti/antipasto-board-with-ham-cheese-nuts-honey.jpg" class="card-img-top"
+            alt="image d'un plateau de charcuterie et de fromage">
           <div class="card-body">
             <h5 class="card-title">Antipasti</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
             <a href="#" class="btn btn-danger">Antipasti</a>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="img/top-view-pepperoni-pizza-with-sausage-tomato-sauce-cheese-herb-sprinkles.jpg" class="card-img-top" alt="image d'une pizza aux pepperonies et au fromage">
+          <img src="img/pizza/top-view-pepperoni-pizza-with-sausage-tomato-sauce-cheese-herb-sprinkles.jpg"
+            class="card-img-top" alt="image d'une pizza aux pepperonies et au fromage">
           <div class="card-body">
             <h5 class="card-title">Pizza</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
             <a href="#" class="btn btn-danger">Go somewhere</a>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="img/authentic-italian-pasta.jpg" class="card-img-top" alt="image de spaghetti aux tomates cerises et basilic">
+          <img src="img/pizza/top-view-pepperoni-pizza-with-sausage-tomato-sauce-cheese-herb-sprinkles.jpg"
+            class="card-img-top" alt="image d'une pizza aux pepperonies et au fromage">
+          <div class="card-body">
+            <h5 class="card-title">Risotto</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
+            <a href="#" class="btn btn-danger">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/pasta/authentic-italian-pasta.jpg" class="card-img-top"
+            alt="image de spaghetti aux tomates cerises et basilic">
           <div class="card-body">
             <h5 class="card-title">Pasta</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
             <a href="#" class="btn btn-danger">Go somewhere</a>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="img/cup-creamy-cappuccino.jpg" class="card-img-top" alt="image d'un cappuccino">
+          <img src="img/boisson/cup-creamy-cappuccino.jpg" class="card-img-top" alt="image d'un cappuccino">
           <div class="card-body">
             <h5 class="card-title">Boisson</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
             <a href="#" class="btn btn-danger">Go somewhere</a>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="img/front-view-delicious-tiramisu-concept.jpg" class="card-img-top" alt="Image d'un tiramisu">
+          <img src="img/dessert/front-view-delicious-tiramisu-concept.jpg" class="card-img-top" alt="Image d'un tiramisu">
           <div class="card-body">
             <h5 class="card-title">Dessert</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
             <a href="#" class="btn btn-danger">Go somewhere</a>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-  
-  <div><a href="plats.html" title="Nos plats">Nos Plats</a></div>
-  <!--Button linked avec nos plats suivis de qqs photos de plats-->
-  <div>
-   
+    <div><a href="plats.html" title="Nos plats">Nos Plats</a></div>
+    <!--Button linked avec nos plats suivis de qqs photos de plats-->
+    <div>
 
-  </div>
-  <div>
-   
-  <footer>
-    <div>Retrouvez nous sur nos réseaux !</div>
-    <img src="iconeinsta" alt="..."><img src="iconetwitter" alt="..."><img src="iconefb" alt="...">
-    <div></div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+
+    </div>
+    <div>
+
+      <footer>
+        <div>Retrouvez nous sur nos réseaux !</div>
+        <img src="iconeinsta" alt="..."><img src="iconetwitter" alt="..."><img src="iconefb" alt="...">
+        <div></div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
