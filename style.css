@@ -82,5 +82,16 @@ nav.navbar {
     height: 500px;
 }
 
-.card:hover
+.image-test{
+    border: solid 2px white;
+    border-radius: 5%;
+    
+    
+}
+.image-test:hover{
+    transform: rotateZ(360deg);
+    border: none;
+    transition-duration: 2s;
+    cursor: pointer;
+}
 
