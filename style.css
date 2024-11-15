@@ -44,12 +44,15 @@ body{
 }
 
 nav.navbar {
-    overflow: hidden;
+    
     position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
     z-index: 1;
+}
+.navbar-toggle {
+    border: solid 3px red;
 }
 /*/.card:hover{
      faire transition on hover= on hover: img qui zoom et text qui se réduit ne laissant que le bouton pour accéder à la catégorie*/
@@ -69,6 +72,10 @@ nav.navbar {
     max-height: 300px;
     
 }
+.card-img-top:hover{
+    transform: scale(1.2);
+}
+
 .carousel-item {
     width: 50%;
     height:50%;
@@ -89,9 +96,13 @@ nav.navbar {
     
 }
 .image-test:hover{
-    transform: rotateZ(360deg);
+    
+    transform: scale(1.1);
     border: none;
     transition-duration: 2s;
     cursor: pointer;
 }
 
+.logo:hover{
+    cursor: default;
+}
