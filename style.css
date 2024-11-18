@@ -42,6 +42,9 @@ body{
     z-index: -1;
     /* La vidéo reste derrière le contenu */
 }
+#background-video:hover{
+    opacity: 50%;
+}
 
 nav.navbar {
     
@@ -72,8 +75,8 @@ nav.navbar {
     max-height: 300px;
     
 }
-.card-img-top:hover{
-    transform: scale(1.2);
+.card:hover{
+    transform: scale(1.05);
 }
 
 .carousel-item {
