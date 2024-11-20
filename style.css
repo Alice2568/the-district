@@ -109,3 +109,9 @@ nav.navbar {
 .logo:hover{
     cursor: default;
 }
+.image-reseau{
+    width: 20px;
+    height: 20px;
+    display: inline;
+
+}
