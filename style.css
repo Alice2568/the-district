@@ -117,8 +117,16 @@ nav.navbar {
     cursor: default;
 }
 .image-reseau{
+    background-color: bisque;
     width: 20px;
     height: 20px;
-    display: inline;
+    margin-right: 10px;
+    border: 1px white solid;
+    border-radius: 20%;
 
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    
 }
