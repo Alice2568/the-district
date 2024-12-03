@@ -21,40 +21,36 @@
       <a class="navbar-brand logo text-light" ><img
           src="img/images_the_district/the_district_brand/logo.png" height="30px" width="30px"
           alt="logo restaurant the district"> District</a>
-      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      <button class="navbar-toggler btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon navbar-dark"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" href="">Accueil</a>
+            <a class="nav-link text-light" aria-current="page" href="accueil.php">Accueil</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-light" href="categories.html">Catégories</a>
+            <a class="nav-link text-light" href="categories.php">Catégories</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link text-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Plats
             </a>
             <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="antipasti.html">Antipastis</a></li>
-              <li><a class="dropdown-item" href="pizza.html">Pizza</a></li>
-              <li><a class="dropdown-item" href="risotto.html">Risotto</a></li>
-              <li><a class="dropdown-item" href="pasta.html">Pasta</a></li>
-              <li><a class="dropdown-item" href="boissons.html">Boissons</a></li>
-              <li><a class="dropdown-item" href="dessert.html">Dessert</a></li>
+              <li><a class="dropdown-item" href="antipasti.php">Antipastis</a></li>
+              <li><a class="dropdown-item" href="pizza.php">Pizza</a></li>
+              <li><a class="dropdown-item" href="risotto.php">Risotto</a></li>
+              <li><a class="dropdown-item" href="pasta.php">Pasta</a></li>
+              <li><a class="dropdown-item" href="boissons.php">Boissons</a></li>
+              <li><a class="dropdown-item" href="dessert.php">Dessert</a></li>
             </ul>
   
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-light" href="contact.html">Contact</a>
+            <a class="nav-link text-light" href="contact.php">Contact</a>
           </li>
         </ul>
-        <!--<form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
-          <button class="btn btn-outline-danger" type="submit">Rechercher</button>
-        </form>-->
       </div>
     </div>
   </nav>
@@ -64,7 +60,8 @@
     </video>
 
 
-    <h1 class="welcome">Bienvenue</h1>
-    <!--changer la font (caveat-font) pour faire une jolie font un peu style caligraphie-->
-    <p class="citation"><em>"La gastronomie est l'art d'utiliser la nourriture pour créer du bonheur."</em></p>
+    <form class=" divsearch lg-5 md-3 sm-2 xs-1" role="search">
+          <input class=" text-center fs-4 fw-bold form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+          <button class="btn btn-dark btn-outline-danger fs-4 fw-bold " type="submit">Rechercher</button>
+        </form>
   </div>
