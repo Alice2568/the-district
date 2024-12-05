@@ -7,11 +7,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     
     $fichier = "donnees.txt";
-    $donnee = "Nom: $nom\n, Téléphone: $telephone\n, ?string $surname = null\n, ?string $email = null\n, ?string $demande = null\n) ";
+    $donnee = "Nom: $nom, Téléphone: $telephone, ?string $surname = null, ?string $email = null, ?string $demande = null) ";
     file_put_contents($fichier, $donnee, FILE_APPEND);
 
     echo "Les données ont été enregistrées avec succès.";
 } else {
     echo "Méthode non autorisée.";
 }
+
 ?>
