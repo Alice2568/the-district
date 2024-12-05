@@ -1,6 +1,7 @@
 <?php
 require("header.php");
 ?>
+<!--carousel à refaire ?!!! + ajouter nom des catégories + images cliquables !-->
   <div>Nos categories</div>
   <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">

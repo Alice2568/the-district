@@ -24,7 +24,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="img/dessert/tasty-homemade-tiramisu-cake.jpg" class="card-img-top" alt="tiramisu">
+        <img src="img/images_the_distric/fosyyyy.jpg" class="card-img-top" alt="tiramisu">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional

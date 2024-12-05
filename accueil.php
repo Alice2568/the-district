@@ -12,7 +12,7 @@
               <h5 class="card-title">Antipasti</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
                 content.</p>
-              <a href="antipasti.html" class="btn btn-danger">Nos Antipastis</a>
+              <a href="antipasti.php" class="btn btn-danger">Nos Antipastis</a>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@
               <h5 class="card-title">Pizza</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
                 content.</p>
-              <a href="pizza.html" class="btn btn-danger">Nos Pizzas</a>
+              <a href="pizza.php" class="btn btn-danger">Nos Pizzas</a>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@
               <h5 class="card-title">Risotto</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
                 content.</p>
-              <a href="risotto.html" class="btn btn-danger">Nos Risottos</a>
+              <a href="risotto.php" class="btn btn-danger">Nos Risottos</a>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
               <h5 class="card-title">Pasta</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
                 content.</p>
-              <a href="pasta.html" class="btn btn-danger">Nos Pastas</a>
+              <a href="pasta.php" class="btn btn-danger">Nos Pastas</a>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@
               <h5 class="card-title">Boisson</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
                 content.</p>
-              <a href="boissons.html" class="btn btn-danger">Nos Boissons</a>
+              <a href="boissons.php" class="btn btn-danger">Nos Boissons</a>
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@
               <h5 class="card-title">Dessert</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
                 content.</p>
-              <a href="dessert.html" class="btn btn-danger">Nos Desserts</a>
+              <a href="dessert.php" class="btn btn-danger">Nos Desserts</a>
             </div>
           </div>
         </div>
