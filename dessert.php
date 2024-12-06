@@ -33,7 +33,4 @@
       </div>
     </div>
   </div>
-  <?php require"footer.php"; ?>
-</body>
-
-</html>
+  <?php require "footer.php"; ?>

@@ -1,0 +1,1 @@
+Name: ternois, Téléphone: 0123456789, ?string alice = null, ?string alice.ternois@orange.fr = null, ?string azertyu = null;

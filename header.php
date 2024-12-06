@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The district</title>
+  <link rel="icon" type="image/x-icon" href="img/images_the_district/the_district_brand/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
@@ -19,7 +20,7 @@
   <nav class="navbar navbar-expand-md bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand logo text-light" ><img
-          src="img/images_the_district/the_district_brand/logo.png" height="30px" width="30px"
+          src="img/images_the_district/the_district_brand/logo.png" height="30" width="30"
           alt="logo restaurant the district"> District</a>
       <button class="navbar-toggler btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +57,7 @@
   </nav>
   <div class="divwelcome">
     <video autoplay muted loop id="background-video">
-      <source src="img/081454429-eating-salami-pizza-stop-motio.mp4" type="video/mp4">
+      <source src="img/sushi.mp4" type="video/mp4">
     </video>
 
 
